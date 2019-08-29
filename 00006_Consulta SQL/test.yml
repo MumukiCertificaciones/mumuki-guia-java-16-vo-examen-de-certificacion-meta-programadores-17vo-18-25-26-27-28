@@ -1,0 +1,2 @@
+type: query
+expected: SELECT c.titulo_cancion FROM canciones c, discos d, bandas b WHERE d.id_banda = b.id_banda AND c.id_disco = d.id_disco AND b.nombre = 'Seru Giran';

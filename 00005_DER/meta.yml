@@ -1,0 +1,25 @@
+---
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La tabla bandas tiene clave primaria
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La clave primaria de la tabla canciones es id_disco
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La tabla discos tiene una clave foránea que referencia a la tabla canciones
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La tabla discos tiene una clave foránea que referencia a la tabla bandas
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La tabla bandas tiene clave foránea
+  checked: false
+name: DER

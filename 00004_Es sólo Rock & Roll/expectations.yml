@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Banda
+  inspection: DeclaresMethod:tocar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Guitarrista
+  inspection: DeclaresMethod:tocar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Baterista
+  inspection: DeclaresMethod:tocar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Triangulista
+  inspection: DeclaresMethod:tocar

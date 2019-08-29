@@ -1,0 +1,10 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+precioBarato: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - '50'
+  - '100'
+  - '150'
+  - '200'
+  - '250'
+  - '300'

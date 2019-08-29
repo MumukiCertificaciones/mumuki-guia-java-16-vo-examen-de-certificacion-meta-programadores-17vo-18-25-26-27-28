@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Producto
+  inspection: DeclaresMethod:esBarato
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Tienda
+  inspection: DeclaresMethod:cantidadDeProductosBaratos

@@ -1,0 +1,22 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: font-weight
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: font-size
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: font-style
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: font-family
+  checked: false
+name: "¿Y cómo hago?"
